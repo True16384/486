@@ -153,8 +153,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty 2048 tile
-          if (merged.value === 243) self.won = true;
+          // The mighty 729 tile
+          if (merged.value === 729) self.won = true;
         }
         
 	 else if (!tile.merged){
